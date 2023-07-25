@@ -888,7 +888,7 @@
     </main>
 
     <!-- ####################################### Footer -->
-    <footer class="bg-[#111111] py-[5rem]">
+    <footer class="bg-[#111111] py-[5rem] px-[5rem]">
       <div
         class="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1"
       >
@@ -1000,11 +1000,44 @@
             Articles. We Won’t Give You <br />
             Spam Mails
           </p>
-          <input
-            type="text"
-            placeholder="Email Address"
-            class="bg-[#F3F3F3] py-4 px-4 rounded-lg my-4 text-[#707070] text-[16px] leading-7"
-          />
+          <div class="flex flex-row relative">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="bg-[#F3F3F3] py-4 px-4 rounded-lg my-4 text-[#707070] text-[16px] leading-7 relative"
+            />
+            <button
+              class="bg-[#B68C5A] py-4 px-4 rounded-lg absolute top-3 lg:right-28 md:right-0 right-32"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_12_37)">
+                  <path
+                    d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_12_37">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 17) rotate(-45)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
